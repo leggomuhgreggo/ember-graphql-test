@@ -3,6 +3,9 @@
 
 module.exports = function(environment) {
   let ENV = {
+    apollo: {
+      apiURL: 'https://api.graph.cool/simple/v1/cixgvvp11679f0111zs8z74u7'
+    },
     modulePrefix: 'quickstart',
     environment,
     rootURL: '/',
